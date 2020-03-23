@@ -1,0 +1,27 @@
+<!-- <wxs src="../../common.wxs" module="morejs" /> -->
+<view class="contain">
+      <view class="card">
+            <view class="box1">
+                  <view class="box1_1">
+                        <view class="box_1_1">余额</view>
+                        <view class="box_1_2">{{num}}.00</view>
+                  </view>
+                  <view class="box1_2">单位（元）</view>
+            </view>
+            <view class="box2">
+                  <view class="box2_1">
+                        <view class="box2_1_1" catchtap="go" data-go="../recharge/recharge">充值</view>
+                        <view class="box2_1_2" catchtap="go" bindtap="reflect">提现</view>
+                  </view>
+            </view>
+      </view>
+</view>
+
+<view class="listContain">
+      <view class="title">——-交易明细-——</view>
+
+</view>
+<view class="nocontent" >
+      <image src="/image/blank.png"></image>
+      <view class="blank_text">这里空空如也~</view>
+</view>

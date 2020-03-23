@@ -1,0 +1,152 @@
+
+<view class="main">
+    
+    <swiper class="banner" indicator-dots autoplay indicator-active-color="#fbbd08" circula>
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="search">
+        <navigator url="search/search">
+            <view class="search-text">
+                <icon class="weui-icon-search_in-box search-icon" type="search" size="14"></icon>
+                搜 索
+            </view>
+        </navigator>
+    </view>
+    <view class='lists'>
+      <view class='lists-item'>
+    <navigator url="list/list">
+      <image src='/image/a.png'></image>
+      <view><text>果味</text></view>
+       </navigator>
+      </view>
+      <view class='lists-item'>
+       <navigator url="list/list">
+      <image src='/image/b.png'></image>
+      <view><text>蔬菜</text></view>
+      </navigator>
+      </view>
+      <view class='lists-item'>
+       <navigator url="list/list">
+      <image src='/image/c.png'></image>
+      <view><text>炒货</text></view>
+      </navigator>
+      </view>
+      <view class='lists-item'>
+       <navigator url="list/list">
+      <image src='/image/d.png'></image>
+      <view><text>点心</text></view>
+      </navigator>
+      </view>
+      <view class='lists-item'>
+       <navigator url="list/list">
+      <image src='/image/e.png'></image>
+      <view><text>粗茶</text></view>
+      </navigator>
+      </view>
+      <view class='lists-item'>
+       <navigator url="list/list">
+      <image src='/image/f.png'></image>
+      <view><text>淡饭</text></view>
+      </navigator>
+      </view>
+      
+    </view>
+    <view class="selected">
+        <view class="select-title"><text>精选主题</text></view>
+        <view class="select-top">
+            <view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="/image/s1.png"></image>
+                </navigator>
+            </view>
+            <view class="select-top-small">
+                <navigator url="list/list">
+                    <image src="/image/s2.png"></image>
+                </navigator>
+            </view>
+        </view>
+        <view class="select-bottom">
+            <navigator url="list/list">
+                <image src="/image/s3.png"></image>
+            </navigator>
+        </view>
+    </view>
+    <view class="newest">
+        <view class="newest-title"><text>最近新品</text></view>
+        <view class="newest-box">
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s4.png"></image>
+                    <view class="newest-text"><text>瓜子 200g</text></view>
+                    <view class="newest-text"><text>￥ 3.90</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s5.png"></image>
+                    <view class="newest-text"><text>芹菜 半斤</text></view>
+                    <view class="newest-text"><text>￥ 3.90</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s6.png"></image>
+                    <view class="newest-text"><text>素米 10kg</text></view>
+                    <view class="newest-text"><text>￥ 29.90</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/c2.png"></image>
+                    <view class="newest-text"><text>山酥梨 2kg</text></view>
+                    <view class="newest-text"><text>￥ 7.90</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/c3.png"></image>
+                    <view class="newest-text"><text>大枣骏枣 半斤</text></view>
+                    <view class="newest-text"><text>￥ 9.90</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/c4.png"></image>
+                    <view class="newest-text"><text>獼猴桃 500g</text></view>
+                    <view class="newest-text"><text>￥ 6.90</text></view>
+                </navigator>
+            </view>
+               <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s4.png"></image>
+                    <view class="newest-text"><text>瓜子 200g</text></view>
+                    <view class="newest-text"><text>￥ 3.90</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s5.png"></image>
+                    <view class="newest-text"><text>芹菜 半斤</text></view>
+                    <view class="newest-text"><text>￥ 3.90</text></view>
+                </navigator>
+            </view>
+            <view class="newest-list">
+                <navigator url="details/details">
+                    <image src="/image/s6.png"></image>
+                    <view class="newest-text"><text>素米 10kg</text></view>
+                    <view class="newest-text"><text>￥ 29.90</text></view>
+                </navigator>
+            </view>
+        </view>
+<block show="{{ scrollTop>500 }}" custom-class="block" duration="1600">
+      <view class="totop" bindtap="gotop">
+            <image src="/image/top.png"></image>
+      </view>
+</block>
+           <view class='footer'><text>已经到底了( ๑ŏ ﹏ ŏ๑ )！！！</text></view>
+    </view>
+</view>

@@ -1,0 +1,82 @@
+<view class="top_box">
+      <view class="top_1">
+            <view wx:if="{{!userinfo}}" class="top_1_1" bindtap="go" data-go="../login/login">点击登录</view>
+            <view wx:if="{{userinfo}}" class="top_1_1">
+                  <open-data type="userNickName"></open-data>
+            </view>
+            <view class="top_1_2" wx:if="{{!userinfo}}">一秒登录，体验所有功能</view>
+             <view class="top_1_2" wx:if="{{userinfo}}" bindtap="go" data-go="../edit/edit" data-status="1">点击修改资料</view>
+      </view>
+      <view class="top_2">
+            <view class="avator">
+                  <open-data wx:if="{{userinfo}}" type="userAvatarUrl"></open-data>
+                  <image wx:if="{{!userinfo}}" src="/image/avator.png"></image>
+            </view>
+      </view>
+</view>
+<view class="center_box">
+      <view class="center_1" bindtap="go" data-go="../list/list" data-status="1">
+            <image src="/image/history.png"></image>
+            <view>我的收藏</view>
+      </view>
+      <view class="center_1" bindtap="go" data-go="../orders/orders" data-status="1">
+            <image src="/image/publish.png"></image>
+            <view>购物清单</view>
+      </view>
+      <view class="center_1" bindtap="go" data-go="../help/help">
+            <image src="/image/help.png"></image>
+            <view>帮助中心</view>
+      </view>
+</view>
+<view class="blank"></view>
+<view class="bottom_box">
+      <view class="bottom_card" bindtap="go" data-go="../parse/parse" data-status="1">
+            <view class="bottom_1">
+                  <image src="/image/parse.png"></image>
+                  <view>我的钱包</view>
+            </view>
+            <image src="/image/go.png"></image>
+      </view>
+      <view class="bottom_card" bindtap="go" data-go="../kefu/kefu" data-status="1">
+            <view class="bottom_1">
+                  <image src="/image/kefu.png"></image>
+                  <view>联系客服</view>
+            </view>
+            <image src="/image/go.png"></image>
+      </view>
+      <view class="bottom_card"   data-status="1">
+            <view class="bottom_1">
+                  <image src="/image/feedback.png"></image>
+                  <view>问题反馈</view>
+            </view>
+            <image src="/image/go.png"></image>
+            <button open-type="feedback"></button>
+      </view>
+      <view class="bottom_card" bindtap="go" data-go="../about/about">
+            <view class="bottom_1">
+                  <image src="/image/guanyu.png"></image>
+                  <view>关于程序</view>
+            </view>
+            <image src="/image/go.png"></image>
+      </view>
+</view>
+
+
+      <view class="share_contain">
+            <view class="share_border"></view>
+            <image src="/image/fen.png"></image>
+            <!-- <view class="share_title">分享</view> -->
+            <view class="share_box">
+                  <view class="share_one">
+                        <image src="/image/weixin.png"></image>
+                        <view>微信好友</view>
+                        <button class="share_button" open-type="share"></button>
+                  </view>
+                  <view class="share_bor"></view>
+                  <view class="share_one">
+                        <image src="/image/pyq.png"></image>
+                        <view>朋友圈</view>
+                        <button class="share_button" bindtap="preview" data-link="{{poster}}"></button>
+                  </view>
+            </view>
+      </view>

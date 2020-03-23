@@ -1,0 +1,29 @@
+<view class="main">
+    <view class="banner">
+        <image src="/image/list1.png"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s4.png"></image>
+                <view class="newest-text"><text>瓜子 200g</text></view>
+                <view class="newest-text"><text>￥ 3.90</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s5.png"></image>
+                <view class="newest-text"><text>芹菜 半斤</text></view>
+                <view class="newest-text"><text>￥ 3.90</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/s6.png"></image>
+                <view class="newest-text"><text>素米 10kg</text></view>
+                <view class="newest-text"><text>￥ 29.90</text></view>
+            </navigator>
+        </view>
+    </view>
+</view>
