@@ -17,8 +17,14 @@
 - [x] 地址管理
 
 ## 实现效果
-![image](https://raw.githubusercontent.com/lin-xin/mini-apps-mall/master/image/1.jpg) 
-![image] 
+![image](https://github.com/Keinth1909/WX_project/blob/master/images/1.png) 
+![image](https://github.com/Keinth1909/WX_project/blob/master/images/2.png) 
+![image](https://github.com/Keinth1909/WX_project/blob/master/images/3.png) 
+![image](https://github.com/Keinth1909/WX_project/blob/master/images/4.png) 
+![image](https://github.com/Keinth1909/WX_project/blob/master/images/5.png) 
+![image](https://github.com/Keinth1909/WX_project/blob/master/images/6.png) 
+![image](https://github.com/Keinth1909/WX_project/blob/master/images/7.png) 
+![image](https://github.com/Keinth1909/WX_project/blob/master/images/8.png) 
 
 ## 运行
 需要安装有微信开发者工具。
