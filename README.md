@@ -5,12 +5,6 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
-
-文章：[微信小程序之购物车功能](https://github.com/lin-xin/blog/issues/14)
-
-## 前言
-
-
 ## 实现功能
 - [x] 首页
 - [x] 搜索
@@ -24,11 +18,7 @@
 
 ## 实现效果
 ![image](https://raw.githubusercontent.com/lin-xin/mini-apps-mall/master/image/1.jpg) 
-![image](https://raw.githubusercontent.com/lin-xin/mini-apps-mall/master/image/2.jpg) 
-![image](https://raw.githubusercontent.com/lin-xin/mini-apps-mall/master/image/3.jpg) 
-![image](https://raw.githubusercontent.com/lin-xin/mini-apps-mall/master/image/4.jpg) 
-![image](https://raw.githubusercontent.com/lin-xin/mini-apps-mall/master/image/5.jpg) 
-![image](https://raw.githubusercontent.com/lin-xin/mini-apps-mall/master/image/6.jpg) 
+![image] 
 
 ## 运行
 需要安装有微信开发者工具。
